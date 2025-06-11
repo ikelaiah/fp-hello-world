@@ -15,7 +15,7 @@ implementation
 
 const
   // Array of programming facts and jokes
-  FactsAndJokes: array[0..24] of string = (
+  FactsAndJokes: array[0..14] of string = (
     'Did you know? The first computer bug was a real bug (a moth) found in 1947!',
     'Why do programmers prefer dark mode? Because light attracts bugs!',
     'There are about 700 programming languages in the world!',
@@ -30,7 +30,7 @@ const
     'What''s the object-oriented way to become wealthy? Inheritance!',
     'What''s a programmer''s favorite snack? Cookies! (But they have to enable them first)',
     'Why was the computer tired when it got home? It had a hard drive!',
-    'What''s a programmer''s favorite place to go on vacation? The Cloud!',
+    'What''s a programmer''s favorite place to go on vacation? The Cloud!'
   );
 
 procedure PrintRandomFactOrJoke;
