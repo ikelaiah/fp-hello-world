@@ -6,7 +6,7 @@
   [![Free Pascal](https://img.shields.io/badge/Free_Pascal-3.2.2+-blue.svg)](https://www.freepascal.org/)
   [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
   [![Hello, World!](https://img.shields.io/badge/Hello-World!-brightgreen)](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)
-  [![Lines of Code](https://img.shields.io/badge/Lines-40-ff69b4)](https://github.com/ikelaiah/fp-hello-world)
+  [![Lines of Code](https://img.shields.io/badge/Lines-100%2B-ff69b4)](https://github.com/ikelaiah/fp-hello-world)
   [![Pascal is Back](https://img.shields.io/badge/Pascal-Is%20Back!-blueviolet)](https://www.freepascal.org/)
   [![No Bugs](https://img.shields.io/badge/Bugs-0%25-success)](https://xkcd.com/221/)
   [![Pascal Vibes](https://img.shields.io/badge/Pascal-Vibes-9cf)](https://en.wikipedia.org/wiki/Pascal_(programming_language))
@@ -57,8 +57,11 @@ end.
 | Feature | Description |
 |---------|-------------|
 | 🎯 **Simple API** | One function to rule them all - just call `PrintHelloWorld` |
+| 🕒 **Dynamic Greeting** | Time-based greetings (morning/afternoon/evening) |
+| 🌙 **Moon Phase** | Shows current moon phase with emoji |
+| 💡 **Fun Facts** | Random programming facts and jokes |
 | 📦 **Modular** | Clean, reusable unit structure |
-| 🧪 **Tested** | Example included to demonstrate usage |
+| 🧪 **Well-Tested** | Example included to demonstrate usage |
 | 🏗️ **Extensible** | Easy to modify and build upon |
 | 📚 **Well-Documented** | Clear comments and examples |
 
@@ -69,20 +72,26 @@ end.
 🖥️  Running the example program...  🖥️
 ======================================
 
-Hello, World from Free Pascal!
--------------------------------
-Time: 06:30:00 PM
-Date: 2025-06-11
+Good evening, World from Free Pascal!
+-------------------------------------
+⏱️  Time: 06:54:04 PM
+📅  Date: 2025-06-11
+🌕  Moon Phase: 🌕
+
+💡 Did you know? The first computer bug was a real bug (a moth) found in 1947!
 
 Have a great day! 😊
 ```
 
+*Note: The greeting changes based on the time of day, and you'll see different moon phases and random facts each time you run the program!*
+
 ## Usage 📖
 
-1. Import the `HelloWorld` in your Free Pascal project.
-2. Call the `PrintHelloWorld` procedure to print "Hello World".
+1. Add the `src` directory to your unit path when compiling
+2. Include the `HelloWorld` unit in your project
+3. Call the `PrintHelloWorld` procedure
 
-### Example
+### Example Program
 ```pascal
 program HelloWorldDemo;
 
@@ -90,8 +99,13 @@ uses
   HelloWorld;
 
 begin
-  PrintHelloWorld;
+  PrintHelloWorld;  // That's all you need!
 end.
+```
+
+### Compiling
+```bash
+fpc -Fu../src your_program.pas
 ```
 
 ## Folder Structure 📂
@@ -115,9 +129,10 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Built With 🛠️
 
-- [Free Pascal](https://www.freepascal.org/) - The Pascal compiler
+- [Free Pascal](https://www.freepascal.org/) 3.2.2+ - The Pascal compiler
 - [Lazarus](https://www.lazarus-ide.org/) - The Free Pascal IDE (optional)
-- ❤️ Passion for clean code
+- Standard Pascal units: `SysUtils`, `DateUtils`, `Math`
+- ❤️ Passion for clean code and fun programming facts
 
 ## Contributing 🤝
 
