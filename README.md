@@ -6,7 +6,7 @@
   [![Free Pascal](https://img.shields.io/badge/Free_Pascal-3.2.2+-blue.svg)](https://www.freepascal.org/)
   [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
   [![Hello, World!](https://img.shields.io/badge/Hello-World!-brightgreen)](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)
-  [![Lines of Code](https://img.shields.io/badge/Lines-100%2B-ff69b4)](https://github.com/ikelaiah/fp-hello-world)
+  [![Lines of Code](https://img.shields.io/badge/Lines-190%2B-ff69b4)](https://github.com/ikelaiah/fp-hello-world)
   [![Pascal is Back](https://img.shields.io/badge/Pascal-Is%20Back!-blueviolet)](https://www.freepascal.org/)
   [![No Bugs](https://img.shields.io/badge/Bugs-0%25-success)](https://xkcd.com/221/)
   [![Pascal Vibes](https://img.shields.io/badge/Pascal-Vibes-9cf)](https://en.wikipedia.org/wiki/Pascal_(programming_language))
