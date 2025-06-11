@@ -71,7 +71,7 @@ end.
 
 Hello, World from Free Pascal!
 -------------------------------
-Time: 12:00:00 PM
+Time: 06:30:00 PM
 Date: 2025-06-11
 
 Have a great day! 😊

@@ -1,0 +1,126 @@
+# Free Pascal compiled units and executables
+*.ppu
+*.o
+*.or
+*.a
+*.s
+*.compiled
+*.exe
+*.res
+*.rsj
+*.rst
+*.bak
+*.dcu
+*.dpu
+*.dcpil
+*.drc
+*.local
+*.tvsconfig
+*.identcache
+*.map
+*.tds
+*.~*~
+*.~*
+*.dbg
+*.dll
+*.so
+*.dylib
+*.bundle
+*.db
+*.dsk
+*.dpr
+*.dproj
+*.dof
+*.dproj.local
+*.dproj.*.local
+*.drc
+*.identcache
+*.local
+*.manifest
+*.res
+*.stat
+*.tvsconfig
+*.tvsconfig.*
+
+# Lazarus/Freepascal project files
+*.lps
+*.lpi
+*.lpr
+*.lpk
+*.lpl
+*.lrtl
+*.lrs
+*.lps
+*.lpi.local
+*.lps.*
+
+# Compiled resource files
+*.lrs
+*.lrtl
+
+# Backup files
+*~
+*.bak
+*.swp
+*.swo
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Build directories
+bin/
+lib/
+backup/
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux specific
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Debug files
+debug.log
+
+# Local development files
+.env
+.env.local
+
+# Free Pascal test outputs
+*.compiled
+*.or
+*.ppw
+*.ppl
+
+# Free Profiler
+*.trc
+
+# Free Pascal debug info
+*.dbg
+
+# Free Pascal configuration files
+fpc.cfg
+fp.ini
+fp.cfg
+ppas.sh
+
+# FreeMake files
+*.fpm
+
+# Compiled examples
+examples/*.exe
+examples/*.o
+examples/*.ppu
