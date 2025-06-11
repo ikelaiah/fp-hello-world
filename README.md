@@ -46,7 +46,10 @@ This project serves as a test case for the upcoming new Free Pascal package mana
 
 ```pascal
 program QuickExample;
-uses HelloWorldUnit;
+
+uses 
+  HelloWorld;
+
 begin
   PrintHelloWorld;  // That's it!
 end.
