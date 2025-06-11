@@ -1,5 +1,7 @@
 program HelloWorldDemo;
 
+{$mode objfpc}{$H+}{$J-}
+
 uses
   HelloWorld;
 
