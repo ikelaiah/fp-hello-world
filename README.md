@@ -79,7 +79,7 @@ Have a great day! 😊
 
 ## Usage 📖
 
-1. Import the `HelloWorldUnit` in your Free Pascal project.
+1. Import the `HelloWorld` in your Free Pascal project.
 2. Call the `PrintHelloWorld` procedure to print "Hello World".
 
 ### Example
@@ -87,7 +87,7 @@ Have a great day! 😊
 program HelloWorldDemo;
 
 uses
-  HelloWorldUnit;
+  HelloWorld;
 
 begin
   PrintHelloWorld;
@@ -99,7 +99,7 @@ end.
 ```
 fp-hello-world/
 ├── src/
-│   └── HelloWorldUnit.pas   # The reusable unit
+│   └── HelloWorld.pas       # The reusable unit
 ├── examples/
 │   └── main.pas             # Example program
 ├── README.md                # Project documentation
