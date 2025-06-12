@@ -163,7 +163,7 @@ begin
   WriteLn;  // Blank line for better readability
   
   // Create the complete greeting text and matching underline
-  GreetingText := Greeting + ', World from Free Pascal!';
+  GreetingText := Greeting + ', Hello World from Free Pascal!';
   Underline := StringOfChar('-', Length(GreetingText));
   
   // Display the main greeting with matching underline

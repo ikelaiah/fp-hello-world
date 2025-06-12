@@ -80,8 +80,8 @@ end.
 🖥️  Running the example program...  🖥️
 ======================================
 
-Good evening, World from Free Pascal!
--------------------------------------
+Good evening, Hello World from Free Pascal!
+-------------------------------------------
 ⏱️  Time: 06:54:04 PM
 📅  Date: 2025-06-11
 🌕  Moon Phase: 🌕
