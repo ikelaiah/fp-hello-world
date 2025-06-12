@@ -193,8 +193,19 @@ Distributed under the MIT License. See [LICENSE.md](LICENSE.md) for more informa
 |---------|--------|-----------------|
 | Syntax | `begin`/`end` | `{`/`}` (Did you close them? 😉) |
 | Speed | Blazing fast | Still compiling... |
-| Fun | `procedure Party;` | `const fun = require('not-as-much-fun')` |
+| Fun | `procedure DinnerWithFriends;` | `const fun = require('not-as-much-fun')` |
+| Error Messages | Helpful and clear | `undefined is not a function` |
+| Compilation | Once and done | `Now downloading: 1,237 dependencies` |
+| Type Safety | Strongly typed | `'2' + 2 = '22'` 🤔 |
+| Learning Curve | Gentle slope | `npm install learning-curve --save-dev` |
+| Legacy Code | Still runs perfectly | `Deprecated: Use the new framework` |
+| Code Readability | `SelfDocumentingCode` | `x = a ? b : c ?? d?.e ?? f()` |
+| Memory Management | You're in control | `GarbageCollector.exe has stopped responding` |
+| Build Tool | `fpc hello.pas` (or just F9/F10 in Lazarus) | webpack.config.js (500+ lines) |
 
+
+> *P.S. The author of this project loves all languages (except the ones he doesn't). No developers were harmed in the making of this comparison.*  
+> *— Author*
 
 ## 🚨 Troubleshooting
 
