@@ -42,8 +42,12 @@ This project serves as a test case for the upcoming new Free Pascal package mana
 5. Realise this is peak programming
 6. Profit 💰
 
+<br>
+
 > *"I wrote a 'Hello, World' program, but I'm not sure what to do next."*  
 > *— Every programmer ever*
+
+<br>
 
 ```pascal
 program QuickExample;
@@ -116,8 +120,12 @@ begin
 end.
 ```
 
+<br>
+
 > *The first known "Hello, World!" program appeared in 1972 in a book by Brian Kernighan. Back then, it took 5 lines of code - now optimized it to just 1 procedure call! #Progress*   
 > *— Author*
+
+<br>
 
 ### Advanced Usage
 You can also use individual functions:
@@ -174,9 +182,12 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 Distributed under the MIT License. See [LICENSE.md](LICENSE.md) for more information.
 
+<br>
+
 > *"I'm not a lawyer, but I'm pretty sure this license means you can do whatever you want with this code. Just don't blame me if your toaster starts printing 'Hello, World!'"*   
 > *— Author*   
 
+<br>
 
 ## 📊 Project Stats (100% Accurate)
 
@@ -203,9 +214,12 @@ Distributed under the MIT License. See [LICENSE.md](LICENSE.md) for more informa
 | Memory Management | You're in control | `GarbageCollector.exe has stopped responding` |
 | Build Tool | `fpc hello.pas` (or just F9/F10 in Lazarus) | webpack.config.js (500+ lines) |
 
+<br>
 
 > *P.S. The author of this project loves all languages (except the ones he doesn't). No developers were harmed in the making of this comparison.*  
 > *— Author*
+
+<br>
 
 ## 🚨 Troubleshooting
 
